@@ -14,6 +14,17 @@ body {
     padding: 10px 20px;
     display: flex;
     align-items: center;
+    gap: 30px;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+}
+.logo{ 
+    /* margin-bottom: 50px; */
+    padding-left: 350px;
+
 }
 
 .form-container {
@@ -54,7 +65,7 @@ input {
 }
 
 #send {
-    background-color: maroon;
+    background-color: red;
     color: white;
     padding: 10px 40px;
     border-radius: 5px;
